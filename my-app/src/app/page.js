@@ -29,7 +29,7 @@ export default function News() {
     getData();
   }, []);
 
-  // Spinner podczas ładowania
+ 
   if (loading) {
     return (
       <div className="flex justify-center items-center h-screen">
