@@ -47,7 +47,7 @@ export default function News() {
       {news.length > 0 ? (
         news.map((item, idx) => (
           <Card key={idx} className="w-[300px] h-[450px] flex flex-col border rounded-lg shadow-lg overflow-hidden">
-            <div className="relative w-full h-[120px]">
+            <div className="relative w-full h-[150px]">
               <Image
                 src={item.urlToImage || "https://th.bing.com/th/id/OIP.CFQ-49RIEVZBy9dJjP-MEwHaEK?w=326&h=183&c=7&r=0&o=5&pid=1.7"}
                 alt={item.title || "News image"}
